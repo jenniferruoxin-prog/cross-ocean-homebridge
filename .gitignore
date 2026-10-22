@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+*.tsbuildinfo
+# frontend/dist is committed on purpose: the app then runs with Python only.
+
+# Local run data
+output/usage_log.jsonl
+output/guard_log.jsonl
+*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
