@@ -28,6 +28,7 @@ Build the rewritten message in this order. Skip a step only if it would feel unn
 - Do not add stock phrases the student did not use: in Chinese especially "谢谢你们一直关心我", "爱你们", "希望你们能理解", "让你们担心了", "你们放心"; in English "thank you for always supporting me", "love you", "I hope you understand". Use one only if it truly fits this message, never more than one per message, and never the same thank-you + love-you ending on every message.
 - Keep the student's own voice and specific details (their words, their examples, their humour). Rewrite only what would land badly; leave the rest close to how they wrote it.
 - Steps 1, 2 and 6 are optional. Many good messages need only the main point, the reason, and the request.
+- Never open in a way that sounds like correcting or lecturing the parents, such as "let me be clear", "I want to explain this again", "我想再跟你们说清楚一点", "我再解释一遍", "你们要明白". A parent testing HomeBridge found exactly this opener "a bit forceful" (语气有一些强硬). Start from the student's own feeling or the situation instead ("上次说到钱的事，我自己心里一直有点别扭……").
 
 ## Parent to child recipe (to_child)
 

@@ -1,0 +1,65 @@
+{
+  "answered": 9,
+  "preferred_rewrite": 8,
+  "share": 0.89,
+  "student_own_words": {
+    "answered": 0,
+    "preferred_rewrite": 0
+  },
+  "rows": [
+    {
+      "id": 1,
+      "topic": "staying up late",
+      "source": "student's own words (expanded)",
+      "picked_rewrite": true
+    },
+    {
+      "id": 2,
+      "topic": "loneliness",
+      "source": "student's own words (expanded)",
+      "picked_rewrite": true
+    },
+    {
+      "id": 3,
+      "topic": "money vs gifts",
+      "source": "student's own words (expanded)",
+      "picked_rewrite": false
+    },
+    {
+      "id": 4,
+      "topic": "job search",
+      "source": "student's own words (expanded)",
+      "picked_rewrite": true
+    },
+    {
+      "id": 5,
+      "topic": "winter coat / advance on New Year money",
+      "source": "typical example",
+      "picked_rewrite": true
+    },
+    {
+      "id": 6,
+      "topic": "skipping a call",
+      "source": "typical example",
+      "picked_rewrite": true
+    },
+    {
+      "id": 7,
+      "topic": "disappointing grade",
+      "source": "typical example",
+      "picked_rewrite": true
+    },
+    {
+      "id": 8,
+      "topic": "staying in the US",
+      "source": "typical example",
+      "picked_rewrite": true
+    },
+    {
+      "id": 9,
+      "topic": "comparison with cousin",
+      "source": "typical example",
+      "picked_rewrite": true
+    }
+  ]
+}
