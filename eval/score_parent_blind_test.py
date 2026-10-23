@@ -25,7 +25,7 @@ def main() -> None:
         rows.append({"id": i, "topic": k["topic"], "source": k["source"], "picked_rewrite": picks[i] == k["rewrite_is"]})
     n = len(rows)
     wins = sum(r["picked_rewrite"] for r in rows)
-    own = [r for r in rows if r["source"] == "student's own words"]
+    own = [r for r in rows if r["source"].startswith("student's own words")]
     summary = {
         "answered": n,
         "preferred_rewrite": wins,
