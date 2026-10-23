@@ -22,3 +22,8 @@ Position check: the rewrite was 甲 in pairs 3, 6 and 9 and 乙 in the other six
 ## What changed because of this feedback
 
 The rewrite in pair 3 opened with "我想再跟你们说清楚一点" ("let me make this clear to you again"), which reads to a parent like correcting them. The communication guide now tells the Bridge to avoid openers that sound like correcting or lecturing the parents ("let me be clear", "我想跟你们说清楚", "我再解释一遍") and to start from the student's feeling instead.
+
+# Weekly letter: a classmate and their mother (2026-10-23, reported by the classmate)
+
+- **Call time (classmate's estimate, not timed):** without the weekly letter, a video call needs about an hour of explaining background and answering questions before much gets shared ("a bit annoying"); with the letter, about 20 minutes and "everyone is happy".
+- **Their mother:** the weekly letter gives her "one more thing to look forward to each week, besides the video call", and the search suggestions matter because they show her how to learn about her child's life and which topics to bring up.
