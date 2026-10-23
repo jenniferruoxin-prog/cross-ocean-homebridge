@@ -2,93 +2,94 @@
   {
     "id": 1,
     "topic": "staying up late",
-    "source": "student's own words",
+    "source": "student's own words (expanded)",
     "rewrite_is": "乙",
-    "without_app": "我是想早睡的，但就是莫名有很多事情想做，所以最后才总是熬夜",
-    "rewrite": "爸妈，我其实也想早点睡，谢谢你们关心我的作息。只是有时候晚上会突然觉得还有好多事情想做，结果就不知不觉熬夜了。希望你们能理解，我也知道早点休息对身体好。",
+    "without_app": "我知道你们老说让我早点睡，我也是想早睡的。但每天晚上就是莫名有很多事情想做，作业写完了还想看会儿东西、回回消息、把第二天的事情理一理，一不注意就过了一两点，所以最后总是熬夜。",
+    "rewrite": "爸妈，我知道你们总提醒我早点睡，其实我自己也想早点睡。晚上作业做完后，我还会想看会儿东西、回回消息、理一理第二天要做的事，常常一不留神就到了一两点，所以才总是睡得晚。",
     "what_changed": [
-      "I kept your explanation that you want to sleep earlier, while making clear that staying up late happens because you get caught up wanting to do other things.",
-      "I added a brief thank-you and acknowledged that getting enough rest is good for your health, so your parents can hear the care behind their concern.",
-      "I avoided promising a specific change, since your draft didn’t say what you plan to do differently."
+      "I kept the acknowledgment that you want to sleep earlier, so your parents can hear that you take their concern seriously.",
+      "I framed the late nights as a routine that gets away from you, rather than sounding dismissive of their reminders.",
+      "I kept your specific examples and the one-to-two-a.m. detail, without adding a promise you didn't make."
     ],
     "usage": {
-      "input_tokens": 4132,
-      "cached_input_tokens": 3813,
-      "output_tokens": 563,
+      "input_tokens": 4471,
+      "cached_input_tokens": 4108,
+      "output_tokens": 447,
       "requests": 1
     }
   },
   {
     "id": 2,
     "topic": "loneliness",
-    "source": "student's own words",
+    "source": "student's own words (expanded)",
     "rewrite_is": "乙",
-    "without_app": "我感觉自己在这里没有交到什么特别好的朋友，有的时候想要找你聊，但是有的话也很难跟你解释，不知道怎么描述这个陌生的环境给你，你才能理解",
-    "rewrite": "爸妈，我最近觉得在这边还没有交到特别亲近的朋友。有时候我很想找你们聊聊，但有些感受不太容易解释；这个环境对我来说很陌生，我也不知道怎么描述，才能让你们明白我的感受。谢谢你们愿意听我说这些。我很想你们，也希望你们能理解我有时不太容易把这些感受说清楚。",
+    "without_app": "我感觉自己在这里一直没交到什么特别好的朋友。上课的时候大家都挺友好的，但下了课好像就各忙各的了。有的时候我挺想找你们聊聊的，但是有的话很难跟你们解释，不知道怎么把这个陌生的环境描述给你们，你们才能理解，所以最后就算了。",
+    "rewrite": "爸妈，我最近有时候会觉得，在这边还没交到特别亲近的朋友。上课时大家都挺友好的，但下课后好像各有各的生活。我也会想找你们聊聊，只是有些感受不太容易解释，我不知道怎么描述这里陌生的环境，才能让你们明白，所以有时就没说出来。",
     "what_changed": [
-      "I kept the feeling of not having close friends clear, while phrasing it gently so it shares loneliness without sounding like blame.",
-      "I explained that the unfamiliar environment makes it hard to describe your feelings, and added warmth and appreciation to help your parents hear this as an attempt to connect."
+      "I kept Jenny's feeling of loneliness and the distinction between friendly classmates and close friends, without making it sound like a criticism of her parents.",
+      "I made the wish to talk to them sound gentle and personal, while preserving that the unfamiliar environment is hard to explain.",
+      "I kept the ending focused on why Jenny sometimes stays quiet, rather than adding advice or reassurance she did not give."
     ],
     "usage": {
-      "input_tokens": 4152,
+      "input_tokens": 4481,
       "cached_input_tokens": 0,
-      "output_tokens": 748,
+      "output_tokens": 346,
       "requests": 1
     }
   },
   {
     "id": 3,
     "topic": "money vs gifts",
-    "source": "student's own words",
+    "source": "student's own words (expanded)",
     "rewrite_is": "甲",
-    "without_app": "跟朋友说是找爸妈“借钱”不会有用的，不是朋友怎么想的事情，是我自己不知道为什么直接拿钱会难受，礼物会让我好受很多",
-    "rewrite": "爸妈，我想跟你们解释一下：就算跟朋友说这是找爸妈“借的钱”，也帮不上忙。问题不是朋友会怎么想，而是我自己直接收钱会觉得不自在；如果是礼物，我会舒服很多，也更容易接受。谢谢你们愿意帮我，我知道这是你们在关心我。",
+    "without_app": "上次说的那个钱的事，就算我跟朋友说是找爸妈“借”的也没用。不是朋友怎么想的问题，是我自己，不知道为什么，直接拿你们的钱我心里就会难受。如果是你们买的礼物，我会好受很多。",
+    "rewrite": "爸妈，上次说到钱的事，我想再跟你们说清楚一点：就算我跟朋友说这是向你们“借”的，我自己心里还是会不太舒服。这不是朋友会怎么想的问题，而是我直接拿你们的钱会觉得有压力。如果你们想帮我，买成礼物送给我，我会好受很多。",
     "what_changed": [
-      "You’re clarifying that framing the money as a loan to friends won’t address the issue, while keeping the focus on your own feelings rather than blaming your parents.",
-      "The distinction between accepting money and accepting a gift is kept clear, so your preference remains firm without sounding rejecting.",
-      "I added appreciation and reassurance so your parents can hear that you recognize their care, even though direct money makes you uncomfortable."
+      "I kept the boundary clear: describing the money as a loan to friends would not change how you feel about receiving it.",
+      "I framed this as your own discomfort rather than as criticism of your parents, which helps them hear that this is personal, not about rejecting their care.",
+      "I made the alternative concrete: a gift would feel more comfortable to you, while keeping the choice in their hands."
     ],
     "usage": {
-      "input_tokens": 4151,
-      "cached_input_tokens": 0,
-      "output_tokens": 672,
+      "input_tokens": 4467,
+      "cached_input_tokens": 4108,
+      "output_tokens": 570,
       "requests": 1
     }
   },
   {
     "id": 4,
     "topic": "job search",
-    "source": "student's own words",
+    "source": "student's own words (expanded)",
     "rewrite_is": "乙",
-    "without_app": "在美国找工作比我想象的难太多了",
-    "rewrite": "爸妈，我想跟你们说一下，在美国找工作比我原来想的难太多了，这让我有些压力。谢谢你们一直关心我，也希望你们能理解我现在遇到的困难。",
+    "without_app": "最近一直在投简历找实习，发了好多份都没什么回音，有几个面试完也没下文了。在美国找工作比我想象的难太多了，身边的同学好像也都差不多，感觉压力挺大的。",
+    "rewrite": "爸妈，最近我一直在投实习简历，投了不少，但收到的回复不多；有几场面试之后也一直没消息。在美国找实习比我原来想的难不少，身边的同学好像也差不多，所以我最近压力挺大的。想跟你们说说我这阵子的感受。",
     "what_changed": [
-      "I kept the main point direct: the job search is much harder than expected.",
-      "I framed it as something you wanted to share and named the pressure gently, helping your parents hear the difficulty without making it sound like blame.",
-      "I added thanks for their care and a request for understanding, so the message invites support without assuming a specific solution."
+      "I kept the concrete details about applications and interviews so your parents can understand what is contributing to the stress.",
+      "I phrased the update from your perspective rather than as a complaint, which helps share the difficulty without sounding like you blame anyone.",
+      "The close simply says you wanted to share how you feel; it doesn’t assume you’re asking them for advice or promising a next step."
     ],
     "usage": {
-      "input_tokens": 4123,
-      "cached_input_tokens": 3813,
-      "output_tokens": 521,
+      "input_tokens": 4465,
+      "cached_input_tokens": 0,
+      "output_tokens": 552,
       "requests": 1
     }
   },
   {
     "id": 5,
-    "topic": "asking for money",
+    "topic": "winter coat / advance on New Year money",
     "source": "typical example",
     "rewrite_is": "乙",
-    "without_app": "这个月我需要大概400美元买课本和一件冬天的外套，你们能转给我吗",
-    "rewrite": "爸妈，我这个月买课本和冬衣大概需要400美元，能不能麻烦你们转给我？谢谢你们一直支持我，爱你们。",
+    "without_app": "天冷了，我想买一件冬天的外套，看中了一件但是有点贵，两百多美元，自己有点舍不得。能不能把今年的压岁钱提前给我，我拿来买这件衣服？",
+    "rewrite": "爸妈，天冷了，我想买一件冬天穿的外套。我看中了一件，价格两百多美元，自己买有点舍不得。能不能把今年的压岁钱提前给我？如果可以的话，我会用来买这件外套，谢谢爸妈。",
     "what_changed": [
-      "I kept the amount, timing, and reasons clear so your parents know exactly what you need the money for.",
-      "I softened the direct request with a polite phrasing and added thanks and affection, which can help the request feel warm rather than abrupt."
+      "I kept the request direct but phrased it gently, so it sounds like a request rather than an expectation.",
+      "I preserved the specific price range and your reluctance to spend your own money, and made clear what you’d use the early money for."
     ],
     "usage": {
-      "input_tokens": 4128,
-      "cached_input_tokens": 0,
-      "output_tokens": 344,
+      "input_tokens": 4456,
+      "cached_input_tokens": 4108,
+      "output_tokens": 469,
       "requests": 1
     }
   },
@@ -97,16 +98,16 @@
     "topic": "skipping a call",
     "source": "typical example",
     "rewrite_is": "甲",
-    "without_app": "这周末的视频能不能不打了？我真的很累，不想说话",
-    "rewrite": "爸妈，这周末我们能不能先不打电话？我最近真的很累，想休息一下，也暂时不太想聊天。谢谢你们理解我、一直惦记着我。你们别担心，我只是需要一点时间缓缓，爱你们。",
+    "without_app": "这周末的视频能不能先不打了？这周事情特别多，每天都弄到很晚，我真的很累，周末只想一个人待着休息，不想说话。",
+    "rewrite": "爸妈，这周末的视频咱们先不打了，好吗？这周事情特别多，每天都忙到很晚，我真的很累。周末我想一个人安静休息一下，暂时不太想说话。不是不想和你们联系，只是这周末想先好好休息，咱们下次再视频。",
     "what_changed": [
-      "I kept your request to skip this weekend’s call clear, while phrasing it gently so it doesn’t sound like you’re rejecting your parents.",
-      "I explained that you’re tired and need rest, and added appreciation and reassurance to help them understand the pause as temporary."
+      "I kept the request to skip this weekend’s video call clear, while phrasing it as a gentle request rather than a blunt cancellation.",
+      "I added a brief reassurance that wanting time alone is about needing rest, not rejecting your parents or the relationship."
     ],
     "usage": {
-      "input_tokens": 4127,
-      "cached_input_tokens": 3813,
-      "output_tokens": 221,
+      "input_tokens": 4447,
+      "cached_input_tokens": 0,
+      "output_tokens": 454,
       "requests": 1
     }
   },
@@ -115,16 +116,17 @@
     "topic": "disappointing grade",
     "source": "typical example",
     "rewrite_is": "乙",
-    "without_app": "我期中考试得了B-。没事，大家都考得不好，别当回事",
-    "rewrite": "爸妈，跟你们说一下，我期中考试拿了B-。这次大家考得都不太好，所以我觉得还好，你们不用太担心，也别把这件事看得太严重。",
+    "without_app": "期中成绩出来了，我考了B-。其实没什么，这次题目很难，大家都考得不好，平均分也不高。你们别当回事，也别一直问了。",
+    "rewrite": "爸妈，期中成绩出来了，我这次考了B-。这次题目比较难，大家考得都不太理想，平均分也不高，所以我觉得这次成绩不用太放在心上。也请你们先别一直问这次成绩了。",
     "what_changed": [
-      "I kept the grade and the point that everyone did poorly, while making the wording calmer and less dismissive than “don’t make it a big deal.”",
-      "The message reassures your parents that you feel okay about the result, which may help them hear the news without assuming you are hiding distress."
+      "I softened “don’t make a big deal of it” so it sounds reassuring rather than dismissive.",
+      "I kept the request not to keep asking, but phrased it as a clear, polite boundary.",
+      "I preserved the grade and the explanation that the exam was hard and the class average was low."
     ],
     "usage": {
-      "input_tokens": 4132,
-      "cached_input_tokens": 3813,
-      "output_tokens": 468,
+      "input_tokens": 4448,
+      "cached_input_tokens": 4108,
+      "output_tokens": 602,
       "requests": 1
     }
   },
@@ -133,16 +135,17 @@
     "topic": "staying in the US",
     "source": "typical example",
     "rewrite_is": "乙",
-    "without_app": "我在考虑毕业后留在美国，不回国了",
-    "rewrite": "爸妈，我最近在认真考虑毕业后留在美国，而不是回国。现在还只是我在考虑这个选择，我想先跟你们坦诚地说一声，也希望之后能听听你们的想法。谢谢你们一直关心我的未来，我很爱你们。",
+    "without_app": "我最近在想毕业以后要不要留在美国工作，不回国了。这边机会多一些，我也慢慢适应这里的生活了。我知道你们可能不太愿意，但我是认真在考虑的。",
+    "rewrite": "爸妈，我最近在认真考虑毕业后要不要留在美国工作。这里的机会多一些，我也慢慢适应了这边的生活，所以想把留下来的可能性好好想一想。我知道你们可能不太希望我留下，但这件事我确实在认真考虑，还没有做决定。",
     "what_changed": [
-      "I kept this as something you are considering, not a final decision, so your parents don't mistake it for settled news.",
-      "I added a warm acknowledgment of their care and a gentle invitation to share their thoughts, which can make a potentially sensitive conversation feel more open and respectful."
+      "I kept the decision clearly open: you are seriously considering staying, not announcing a final decision.",
+      "I retained your reasons—more opportunities and gradually adapting to life there—so your parents can see what is informing your thinking.",
+      "I softened the reference to their possible disagreement while still acknowledging that they may not want you to stay."
     ],
     "usage": {
-      "input_tokens": 4123,
+      "input_tokens": 4451,
       "cached_input_tokens": 0,
-      "output_tokens": 472,
+      "output_tokens": 490,
       "requests": 1
     }
   },
@@ -151,17 +154,16 @@
     "topic": "comparison with cousin",
     "source": "typical example",
     "rewrite_is": "甲",
-    "without_app": "请别再拿我跟表姐比了，这让我压力很大",
-    "rewrite": "爸妈，我想跟你们说件事：被拿来和表姐比较，真的会让我压力很大。希望以后别再拿我和表姐作比较，也请你们多理解一下我的感受。谢谢你们关心我，我爱你们。",
+    "without_app": "能不能别再拿我跟表姐比了？每次你们说表姐怎么怎么好，我都压力很大。我和她情况不一样，比来比去只会让我更难受。",
+    "rewrite": "爸妈，每次你们说表姐多好，我都会觉得压力很大，也很难受。我们情况不一样，这样比较只会让我更难受。以后能不能别再拿我和她比了？",
     "what_changed": [
-      "I kept your request firm: you want them to stop comparing you with your cousin, not just do it less often.",
-      "I framed it around how the comparisons affect you rather than accusing them, which may make it easier for them to hear.",
-      "I added a brief expression of appreciation and affection to keep the boundary from sounding like a rejection of their care."
+      "I kept the request clear and firm, while phrasing it as a request rather than an angry accusation.",
+      "I focused on Jenny’s feelings and the fact that her circumstances differ from her cousin’s, which helps explain why the comparisons hurt."
     ],
     "usage": {
-      "input_tokens": 4123,
-      "cached_input_tokens": 3813,
-      "output_tokens": 553,
+      "input_tokens": 4448,
+      "cached_input_tokens": 4108,
+      "output_tokens": 540,
       "requests": 1
     }
   }

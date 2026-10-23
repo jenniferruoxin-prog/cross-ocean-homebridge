@@ -58,6 +58,12 @@ async def main() -> None:
     (OUT / "blind_test_for_parent.txt").write_text("\n".join(lines), encoding="utf-8")
     (OUT / "answer_key.json").write_text(json.dumps(key, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {OUT / 'blind_test_for_parent.txt'} and answer_key.json ({len(key)} pairs)")
+    # Quick checks that the test is fair: similar lengths, and no stock phrases giving the rewrite away.
+    stock = ["谢谢你们一直关心", "爱你们", "希望你们能理解", "让你们担心了"]
+    for k in key:
+        ratio = len(k["rewrite"]) / len(k["without_app"])
+        found = [p for p in stock if p in k["rewrite"]]
+        print(f"  {k['id']}. length x{ratio:.2f}  stock phrases: {found or 'none'}")
 
 
 if __name__ == "__main__":

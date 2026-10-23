@@ -11,32 +11,68 @@
     "family_notes": ""
   },
   "messages": [
-    {"id": 1, "topic": "staying up late", "source": "student's own words",
-     "draft": "我是想早睡的，但就是莫名有很多事情想做，所以最后才总是熬夜",
-     "without_app": "我是想早睡的，但就是莫名有很多事情想做，所以最后才总是熬夜"},
-    {"id": 2, "topic": "loneliness", "source": "student's own words",
-     "draft": "我感觉自己在这里没有交到什么特别好的朋友，有的时候想要找你聊，但是有的话也很难跟你解释，不知道怎么描述这个陌生的环境给你，你才能理解",
-     "without_app": "我感觉自己在这里没有交到什么特别好的朋友，有的时候想要找你聊，但是有的话也很难跟你解释，不知道怎么描述这个陌生的环境给你，你才能理解"},
-    {"id": 3, "topic": "money vs gifts", "source": "student's own words",
-     "draft": "跟朋友说是找爸妈“借钱”不会有用的，不是朋友怎么想的事情，是我自己不知道为什么直接拿钱会难受，礼物会让我好受很多",
-     "without_app": "跟朋友说是找爸妈“借钱”不会有用的，不是朋友怎么想的事情，是我自己不知道为什么直接拿钱会难受，礼物会让我好受很多"},
-    {"id": 4, "topic": "job search", "source": "student's own words",
-     "draft": "在美国找工作比我想象的难太多了",
-     "without_app": "在美国找工作比我想象的难太多了"},
-    {"id": 5, "topic": "asking for money", "source": "typical example",
-     "draft": "I need like $400 for textbooks and a winter coat this month, can you send it",
-     "without_app": "这个月我需要大概400美元买课本和一件冬天的外套，你们能转给我吗"},
-    {"id": 6, "topic": "skipping a call", "source": "typical example",
-     "draft": "can we skip the call this weekend? I'm just really tired and don't want to talk",
-     "without_app": "这周末的视频能不能不打了？我真的很累，不想说话"},
-    {"id": 7, "topic": "disappointing grade", "source": "typical example",
-     "draft": "got a B- on my midterm. it's fine, everyone did bad, don't make it a big deal",
-     "without_app": "我期中考试得了B-。没事，大家都考得不好，别当回事"},
-    {"id": 8, "topic": "staying in the US", "source": "typical example",
-     "draft": "I'm thinking about staying in the US after graduation instead of coming back",
-     "without_app": "我在考虑毕业后留在美国，不回国了"},
-    {"id": 9, "topic": "comparison with cousin", "source": "typical example",
-     "draft": "please stop comparing me to 表姐, it really stresses me out",
-     "without_app": "请别再拿我跟表姐比了，这让我压力很大"}
+    {
+      "id": 1,
+      "topic": "staying up late",
+      "source": "student's own words (expanded)",
+      "draft": "我知道你们老说让我早点睡，我也是想早睡的。但每天晚上就是莫名有很多事情想做，作业写完了还想看会儿东西、回回消息、把第二天的事情理一理，一不注意就过了一两点，所以最后总是熬夜。",
+      "without_app": "我知道你们老说让我早点睡，我也是想早睡的。但每天晚上就是莫名有很多事情想做，作业写完了还想看会儿东西、回回消息、把第二天的事情理一理，一不注意就过了一两点，所以最后总是熬夜。"
+    },
+    {
+      "id": 2,
+      "topic": "loneliness",
+      "source": "student's own words (expanded)",
+      "draft": "我感觉自己在这里一直没交到什么特别好的朋友。上课的时候大家都挺友好的，但下了课好像就各忙各的了。有的时候我挺想找你们聊聊的，但是有的话很难跟你们解释，不知道怎么把这个陌生的环境描述给你们，你们才能理解，所以最后就算了。",
+      "without_app": "我感觉自己在这里一直没交到什么特别好的朋友。上课的时候大家都挺友好的，但下了课好像就各忙各的了。有的时候我挺想找你们聊聊的，但是有的话很难跟你们解释，不知道怎么把这个陌生的环境描述给你们，你们才能理解，所以最后就算了。"
+    },
+    {
+      "id": 3,
+      "topic": "money vs gifts",
+      "source": "student's own words (expanded)",
+      "draft": "上次说的那个钱的事，就算我跟朋友说是找爸妈“借”的也没用。不是朋友怎么想的问题，是我自己，不知道为什么，直接拿你们的钱我心里就会难受。如果是你们买的礼物，我会好受很多。",
+      "without_app": "上次说的那个钱的事，就算我跟朋友说是找爸妈“借”的也没用。不是朋友怎么想的问题，是我自己，不知道为什么，直接拿你们的钱我心里就会难受。如果是你们买的礼物，我会好受很多。"
+    },
+    {
+      "id": 4,
+      "topic": "job search",
+      "source": "student's own words (expanded)",
+      "draft": "最近一直在投简历找实习，发了好多份都没什么回音，有几个面试完也没下文了。在美国找工作比我想象的难太多了，身边的同学好像也都差不多，感觉压力挺大的。",
+      "without_app": "最近一直在投简历找实习，发了好多份都没什么回音，有几个面试完也没下文了。在美国找工作比我想象的难太多了，身边的同学好像也都差不多，感觉压力挺大的。"
+    },
+    {
+      "id": 5,
+      "topic": "winter coat / advance on New Year money",
+      "source": "typical example",
+      "draft": "天冷了，我想买一件冬天的外套，看中了一件但是有点贵，两百多美元，自己有点舍不得。能不能把今年的压岁钱提前给我，我拿来买这件衣服？",
+      "without_app": "天冷了，我想买一件冬天的外套，看中了一件但是有点贵，两百多美元，自己有点舍不得。能不能把今年的压岁钱提前给我，我拿来买这件衣服？"
+    },
+    {
+      "id": 6,
+      "topic": "skipping a call",
+      "source": "typical example",
+      "draft": "这周末的视频能不能先不打了？这周事情特别多，每天都弄到很晚，我真的很累，周末只想一个人待着休息，不想说话。",
+      "without_app": "这周末的视频能不能先不打了？这周事情特别多，每天都弄到很晚，我真的很累，周末只想一个人待着休息，不想说话。"
+    },
+    {
+      "id": 7,
+      "topic": "disappointing grade",
+      "source": "typical example",
+      "draft": "期中成绩出来了，我考了B-。其实没什么，这次题目很难，大家都考得不好，平均分也不高。你们别当回事，也别一直问了。",
+      "without_app": "期中成绩出来了，我考了B-。其实没什么，这次题目很难，大家都考得不好，平均分也不高。你们别当回事，也别一直问了。"
+    },
+    {
+      "id": 8,
+      "topic": "staying in the US",
+      "source": "typical example",
+      "draft": "我最近在想毕业以后要不要留在美国工作，不回国了。这边机会多一些，我也慢慢适应这里的生活了。我知道你们可能不太愿意，但我是认真在考虑的。",
+      "without_app": "我最近在想毕业以后要不要留在美国工作，不回国了。这边机会多一些，我也慢慢适应这里的生活了。我知道你们可能不太愿意，但我是认真在考虑的。"
+    },
+    {
+      "id": 9,
+      "topic": "comparison with cousin",
+      "source": "typical example",
+      "draft": "能不能别再拿我跟表姐比了？每次你们说表姐怎么怎么好，我都压力很大。我和她情况不一样，比来比去只会让我更难受。",
+      "without_app": "能不能别再拿我跟表姐比了？每次你们说表姐怎么怎么好，我都压力很大。我和她情况不一样，比来比去只会让我更难受。"
+    }
   ]
 }

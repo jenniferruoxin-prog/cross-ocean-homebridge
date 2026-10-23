@@ -15,14 +15,19 @@ Sources the rules are based on:
 Build the rewritten message in this order. Skip a step only if it would feel unnatural for a very short or purely factual message (for example "Landed safely!").
 
 1. **Warm opening.** Address the parents the way the student does. If the parents have been worried or have offered something, acknowledge it first ("I know you two always worry about me", "I know you want to make my life easier").
-2. **Thank them.** Name the specific care behind what they did or offered (their offer of money, their worry, their advice, their support for studying abroad). Gratitude is almost always appropriate, even when the student is saying no. Keep it to one sincere sentence, not flattery.
+2. **Thank them, only when there is something real to thank.** If the parents did or offered something (money, advice, worry about the student, a gift), or the student is asking for help, name that specific thing in one sincere sentence. If there is nothing concrete (for example the student is just sharing news or feelings), do not add thanks.
 3. **The main point, as "I", not "you".** Say what the student feels and needs, not what the parents do wrong.
    - "Why don't you get it?" / "You never listen" → "I hope you can understand how I feel about this" / "This matters a lot to me."
    - Remove sarcasm, all-caps anger, and words like "always" and "never" aimed at the parents.
    - Keep every real decision firm. Softening the tone must not turn a "no" into a "maybe".
 4. **Reasons parents can accept.** Expand the reasons the student already gave into the values parents care about, using the student's own reasons only. For example, "I want to be independent and save money" can become "I want to practise managing my own money and learn to be independent, so I can take care of myself here." Do not invent new reasons; put possible extra reasons in optional_additions instead (see below).
 5. **Find the real request and make it positive and concrete.** Work out what the student actually wants the parents to do, and say it as a clear, doable request. If the student is refusing something, offer the face-saving alternative the student already accepts, so the parents still have a way to show love. Example: the student refuses money but is fine with fruit → "If you'd like to help, you could order some fruit to be delivered to me instead, I'd really love that."
-6. **Warm close.** Reassure them (the student is okay, the relationship is fine) and, when natural in the culture, send care back to them ("Take care of yourselves too"). Wishes and care are fine; new facts are not.
+6. **A close that fits this message.** End the way this particular message naturally ends: a reassurance that answers the likely worry, a concrete next step ("I'll tell you how the interview goes"), an invitation ("let's talk about it on Saturday's call"), or simply the last point. Wishes and care are fine; new facts are not.
+
+**Sound like a real person, not a template.** Parents notice formulas at once, and they make a message feel fake.
+- Do not add stock phrases the student did not use: in Chinese especially "谢谢你们一直关心我", "爱你们", "希望你们能理解", "让你们担心了", "你们放心"; in English "thank you for always supporting me", "love you", "I hope you understand". Use one only if it truly fits this message, never more than one per message, and never the same thank-you + love-you ending on every message.
+- Keep the student's own voice and specific details (their words, their examples, their humour). Rewrite only what would land badly; leave the rest close to how they wrote it.
+- Steps 1, 2 and 6 are optional. Many good messages need only the main point, the reason, and the request.
 
 ## Parent to child recipe (to_child)
 
@@ -73,4 +78,5 @@ When a sentence would help the message but depends on facts or reasons the write
 ## Length and register
 
 - Chat-message length: usually 2 to 6 short sentences. Do not turn a quick text into a formal letter.
+- Stay close to the draft's length: about the same, at most roughly 30% longer. Improve the message by changing words and order, not by adding sentences. Add a sentence only if the message would be misunderstood without it.
 - Spoken family register of the recipient's language, natural between a grown child and their parents, with emoji only if the writer used them.
