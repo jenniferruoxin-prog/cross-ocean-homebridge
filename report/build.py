@@ -85,7 +85,7 @@ def main() -> None:
     html = html.replace("<!--TOKENOMICS_TABLE-->", tokenomics_table())
     html = html.replace("<!--BLIND_RESULT-->", blind_result())
     html = html.replace(
-        "<!--SURVEY_RESULT-->", "<p class='todo'>More parent survey answers (q1 to q7) can be added here.</p>"
+        "<!--SURVEY_RESULT-->", ""
     )
     html = embed_images(html)
     out = HERE / "report.html"
