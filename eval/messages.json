@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "student_name": "Jenny",
+    "parent_names": "爸妈",
+    "parent_language": "Simplified Chinese",
+    "student_language": "English",
+    "home_country": "China",
+    "school": "Yale University",
+    "student_timezone": "America/New_York",
+    "parent_timezone": "Asia/Shanghai",
+    "family_notes": ""
+  },
+  "messages": [
+    {"id": 1, "topic": "staying up late", "source": "student's own words",
+     "draft": "我是想早睡的，但就是莫名有很多事情想做，所以最后才总是熬夜",
+     "without_app": "我是想早睡的，但就是莫名有很多事情想做，所以最后才总是熬夜"},
+    {"id": 2, "topic": "loneliness", "source": "student's own words",
+     "draft": "我感觉自己在这里没有交到什么特别好的朋友，有的时候想要找你聊，但是有的话也很难跟你解释，不知道怎么描述这个陌生的环境给你，你才能理解",
+     "without_app": "我感觉自己在这里没有交到什么特别好的朋友，有的时候想要找你聊，但是有的话也很难跟你解释，不知道怎么描述这个陌生的环境给你，你才能理解"},
+    {"id": 3, "topic": "money vs gifts", "source": "student's own words",
+     "draft": "跟朋友说是找爸妈“借钱”不会有用的，不是朋友怎么想的事情，是我自己不知道为什么直接拿钱会难受，礼物会让我好受很多",
+     "without_app": "跟朋友说是找爸妈“借钱”不会有用的，不是朋友怎么想的事情，是我自己不知道为什么直接拿钱会难受，礼物会让我好受很多"},
+    {"id": 4, "topic": "job search", "source": "student's own words",
+     "draft": "在美国找工作比我想象的难太多了",
+     "without_app": "在美国找工作比我想象的难太多了"},
+    {"id": 5, "topic": "asking for money", "source": "typical example",
+     "draft": "I need like $400 for textbooks and a winter coat this month, can you send it",
+     "without_app": "这个月我需要大概400美元买课本和一件冬天的外套，你们能转给我吗"},
+    {"id": 6, "topic": "skipping a call", "source": "typical example",
+     "draft": "can we skip the call this weekend? I'm just really tired and don't want to talk",
+     "without_app": "这周末的视频能不能不打了？我真的很累，不想说话"},
+    {"id": 7, "topic": "disappointing grade", "source": "typical example",
+     "draft": "got a B- on my midterm. it's fine, everyone did bad, don't make it a big deal",
+     "without_app": "我期中考试得了B-。没事，大家都考得不好，别当回事"},
+    {"id": 8, "topic": "staying in the US", "source": "typical example",
+     "draft": "I'm thinking about staying in the US after graduation instead of coming back",
+     "without_app": "我在考虑毕业后留在美国，不回国了"},
+    {"id": 9, "topic": "comparison with cousin", "source": "typical example",
+     "draft": "please stop comparing me to 表姐, it really stresses me out",
+     "without_app": "请别再拿我跟表姐比了，这让我压力很大"}
+  ]
+}

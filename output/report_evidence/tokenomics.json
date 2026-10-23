@@ -1,0 +1,95 @@
+{
+  "prices_per_1M": {
+    "input": 0.1,
+    "cached_input": 0.01,
+    "output": 0.5
+  },
+  "per_agent": {
+    "bridge": {
+      "runs": 30,
+      "avg_input": 3339,
+      "avg_cached": 1699,
+      "cache_share": 0.51,
+      "avg_output": 514,
+      "avg_requests": 1,
+      "cost_per_run": 0.000438106,
+      "cost_per_run_no_cache": 0.0005910399999999999
+    },
+    "photo_reader": {
+      "runs": 37,
+      "avg_input": 1960,
+      "avg_cached": 0,
+      "cache_share": 0.0,
+      "avg_output": 142,
+      "avg_requests": 1,
+      "cost_per_run": 0.00026715945945945946,
+      "cost_per_run_no_cache": 0.00026715945945945946
+    },
+    "digest_writer": {
+      "runs": 14,
+      "avg_input": 8594,
+      "avg_cached": 4834,
+      "cache_share": 0.56,
+      "avg_output": 2253,
+      "avg_requests": 1.71,
+      "cost_per_run": 0.0015508585714285714,
+      "cost_per_run_no_cache": 0.001985957142857143
+    },
+    "letter_explorer": {
+      "runs": 4,
+      "avg_input": 5725,
+      "avg_cached": 580,
+      "cache_share": 0.1,
+      "avg_output": 1442,
+      "avg_requests": 1,
+      "cost_per_run": 0.00124098,
+      "cost_per_run_no_cache": 0.0012932249999999998
+    },
+    "call_planner": {
+      "runs": 7,
+      "avg_input": 5759,
+      "avg_cached": 2549,
+      "cache_share": 0.44,
+      "avg_output": 2078,
+      "avg_requests": 2.14,
+      "cost_per_run": 0.0013857014285714286,
+      "cost_per_run_no_cache": 0.0016150857142857144
+    },
+    "calendar_reader": {
+      "runs": 3,
+      "avg_input": 2409,
+      "avg_cached": 0,
+      "cache_share": 0.0,
+      "avg_output": 667,
+      "avg_requests": 1,
+      "cost_per_run": 0.0005744,
+      "cost_per_run_no_cache": 0.0005744
+    }
+  },
+  "weekly_use": {
+    "bridge": 10,
+    "photo_reader": 4,
+    "digest_writer": 1,
+    "letter_explorer": 1,
+    "call_planner": 1,
+    "calendar_reader": 0.5
+  },
+  "per_family_per_month": 0.04296256396396396,
+  "per_family_per_month_without_cache": 0.05269552467824967,
+  "cache_saving_share": 0.185,
+  "scale": {
+    "1": {
+      "per_month": 0.04296256396396396,
+      "per_year": 0.5155507675675675
+    },
+    "100": {
+      "per_month": 4.296256396396396,
+      "per_year": 51.555076756756755
+    },
+    "10000": {
+      "per_month": 429.6256396396396,
+      "per_year": 5155.507675675675
+    }
+  },
+  "total_logged_runs": 95
+}
