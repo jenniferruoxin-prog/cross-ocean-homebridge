@@ -1,4 +1,4 @@
-"""Builds report/report.html: one self-contained file (images embedded) from report_src.html.
+"""Builds report/report.html and report/slides.html: self-contained files (images embedded).
 
 Run from the repo folder:  python report/build.py
 - every <img src="img/..."> is replaced by an embedded data URL
@@ -90,6 +90,14 @@ def main() -> None:
     html = embed_images(html)
     out = HERE / "report.html"
     out.write_text(html, encoding="utf-8")
+    print(f"Wrote {out} ({out.stat().st_size / 1024:.0f} KB)")
+
+    # Slides reuse the report's architecture diagram, so both always match.
+    diagram = re.search(r"<svg viewBox=\"0 0 860 470\".*?</svg>", html, re.DOTALL).group(0)
+    slides = (HERE / "slides_src.html").read_text(encoding="utf-8").replace("<!--DIAGRAM-->", diagram)
+    slides = embed_images(slides)
+    out = HERE / "slides.html"
+    out.write_text(slides, encoding="utf-8")
     print(f"Wrote {out} ({out.stat().st_size / 1024:.0f} KB)")
 
 
